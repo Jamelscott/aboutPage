@@ -1,10 +1,10 @@
 import './App.css';
-import Footer from './components/Footer'
 import * as ReactBootStrap from 'react-bootstrap'
+import Cards from './components/Cards';
 function App() {
   return (
     <div className="App">
-
+      <Cards />
       <Footer />
     </div>
   );
